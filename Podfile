@@ -16,6 +16,6 @@ abstract_target 'BasePods' do
 	end
 
 	target 'BRFullTextSearchMacOS' do
-		platform :osx, '10.7'
+		platform :osx, '10.15'
 	end
 end

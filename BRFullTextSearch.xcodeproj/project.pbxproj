@@ -24,7 +24,6 @@
 		03B7FF76098C0020B53B1963 /* libPods-BasePods-BRFullTextSearchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C1BE10792AA64013FE1EF4 /* libPods-BasePods-BRFullTextSearchTests.a */; };
 		08F58ED50F9FA6B4ADC815B9 /* libPods-BasePods-BRFullTextSearchMacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 975BE9E97FE948445107BD2A /* libPods-BasePods-BRFullTextSearchMacOS.a */; };
 		6022E4062A55E98145910DDD /* libPods-BasePods-BRFullTextSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25A545E77BFA43C3C5D47F /* libPods-BasePods-BRFullTextSearch.a */; };
-		B41D7B5916D7FE7B09F1A0F7 /* libPods-BRFullTextSearchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A941FCDB2DC233E241C3800 /* libPods-BRFullTextSearchTests.a */; };
 		C909C2651784CB600016C25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C909C2641784CB600016C25E /* Foundation.framework */; };
 		C909C64A1784D00C0016C25E /* BRSnowballAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C909C6461784D00C0016C25E /* BRSnowballAnalyzer.cpp */; };
 		C909C64C1784D00C0016C25E /* BRNoLockFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C909C6481784D00C0016C25E /* BRNoLockFactory.cpp */; };
@@ -132,7 +131,6 @@
 		01C1BE10792AA64013FE1EF4 /* libPods-BasePods-BRFullTextSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasePods-BRFullTextSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B150ED0DC675AAD38D91041 /* Pods-BasePods-BRFullTextSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasePods-BRFullTextSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasePods-BRFullTextSearchTests/Pods-BasePods-BRFullTextSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		175688046C735C8053C0E015 /* Pods-BRFullTextSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRFullTextSearchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BRFullTextSearchTests/Pods-BRFullTextSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A941FCDB2DC233E241C3800 /* libPods-BRFullTextSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BRFullTextSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD30F9EDBB90E180F819A99 /* Pods-BRFullTextSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRFullTextSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BRFullTextSearchTests/Pods-BRFullTextSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		685E3CDA24EE7C8ED3604A8D /* Pods-BasePods-BRFullTextSearchMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasePods-BRFullTextSearchMacOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasePods-BRFullTextSearchMacOS/Pods-BasePods-BRFullTextSearchMacOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8D25A545E77BFA43C3C5D47F /* libPods-BasePods-BRFullTextSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasePods-BRFullTextSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90B751D1C7EA00D00014124 /* libBRFullTextSearch.a in Frameworks */,
-				B41D7B5916D7FE7B09F1A0F7 /* libPods-BRFullTextSearchTests.a in Frameworks */,
 				03B7FF76098C0020B53B1963 /* libPods-BasePods-BRFullTextSearchTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +289,6 @@
 			children = (
 				C99FCBEE1846745E00A90E66 /* UIKit.framework */,
 				C909C2641784CB600016C25E /* Foundation.framework */,
-				4A941FCDB2DC233E241C3800 /* libPods-BRFullTextSearchTests.a */,
 				8D25A545E77BFA43C3C5D47F /* libPods-BasePods-BRFullTextSearch.a */,
 				01C1BE10792AA64013FE1EF4 /* libPods-BasePods-BRFullTextSearchTests.a */,
 				975BE9E97FE948445107BD2A /* libPods-BasePods-BRFullTextSearchMacOS.a */,
@@ -614,7 +610,6 @@
 				C909C25D1784CB600016C25E /* Sources */,
 				C909C25E1784CB600016C25E /* Frameworks */,
 				C909C25F1784CB600016C25E /* CopyFiles */,
-				B4DC1C858B5C151A3753077A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -633,8 +628,6 @@
 				C90B75141C7EA00D00014124 /* Sources */,
 				C90B75151C7EA00D00014124 /* Frameworks */,
 				C90B75161C7EA00D00014124 /* Resources */,
-				5617952ED2518554D95E35B0 /* [CP] Embed Pods Frameworks */,
-				00D7B40D1EF58CD637A4F7F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -655,15 +648,13 @@
 				E3DF7E411C69A075005B861B /* Frameworks */,
 				E3DF7E421C69A075005B861B /* Headers */,
 				E3DF7E431C69A075005B861B /* Resources */,
-				E38E8DD21C6A596A000EB763 /* ShellScript */,
-				FC367F5EDEBE8EC8EAB3FCD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BRFullTextSearchMacOS;
-			productName = "BRFullTextSearchMacOS";
+			productName = BRFullTextSearchMacOS;
 			productReference = E3DF7E451C69A075005B861B /* BRFullTextSearch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -686,6 +677,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				da,
 				de,
@@ -747,49 +739,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00D7B40D1EF58CD637A4F7F5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-BRFullTextSearchTests/Pods-BasePods-BRFullTextSearchTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1691C4EF91153A97CC3284E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasePods-BRFullTextSearch-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5617952ED2518554D95E35B0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-BRFullTextSearchTests/Pods-BasePods-BRFullTextSearchTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62172D825257FBA38E5A7E81 /* [CP] Check Pods Manifest.lock */ = {
@@ -798,28 +763,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasePods-BRFullTextSearchMacOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B4DC1C858B5C151A3753077A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-BRFullTextSearch/Pods-BasePods-BRFullTextSearch-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C909C64E1784D1090016C25E /* Generate framework */ = {
@@ -836,47 +789,22 @@
 			shellPath = /bin/sh;
 			shellScript = "TARGET=BRFullTextSearch\nACTION=\"clean build\"\nLIB=libBRFullTextSearch.a\nPRODUCT=BRFullTextSearch\n\nOUTPUT_DIR=\"${PROJECT_DIR}/Framework\"\nHEADERS_DIR=\"${OUTPUT_DIR}/Headers\"\nRESOURCE_DIR=\"${OUTPUT_DIR}/Resources\"\n\n# Start clean by removing output dir\nrm -rf ${HEADERS_DIR}\nmkdir -p \"${HEADERS_DIR}\"\n\n# Copy source headers into flat Headers directory\nrsync -a --include '*/' --include '**/*.h' --exclude '*' ${PROJECT_DIR}/clucene/src/shared/CLucene \"${HEADERS_DIR}/\"\nrsync -a --include '*/' --include '**/*.h' --exclude '*' ${PROJECT_DIR}/clucene/src/core/CLucene \"${HEADERS_DIR}/\"\nrsync -a --include '*/' --include '**/Snowball*.h' --exclude '*' --prune-empty-dirs ${PROJECT_DIR}/clucene/src/contribs-lib/CLucene \"${HEADERS_DIR}/\"\nrsync -a ${PROJECT_DIR}/clucene/src/contribs-lib/CLucene/snowball/libstemmer.h \"${HEADERS_DIR}/\"\nrsync -a --include 'CLucene' --include '**/*.h' --exclude '*' ${PROJECT_DIR}/${PRODUCT}/ \"${HEADERS_DIR}/\"\nrsync -a --include '*.lproj/' --include '*.lproj/*' --exclude '*' ${PROJECT_DIR}/${PRODUCT}/ \"${RESOURCE_DIR}/\"\n\necho \"Output to: ${OUTPUT_DIR}\"\n\n# change to \"Release Debug\" to build both\nCONFIGURATIONS=\"Debug Release\"\nfor CONFIG in ${CONFIGURATIONS}; do\n    FRAMEWORK_DIR=\"${OUTPUT_DIR}/${CONFIG}/${PRODUCT}.framework\"\n\n    echo \"Building $CONFIG build to ${FRAMEWORK_DIR}\"\n    rm -rf \"${FRAMEWORK_DIR}\"\n\n    DEVICE_DIR=${SYMROOT}/${CONFIG}-iphoneos\n    SIMULATOR_DIR=${SYMROOT}/${CONFIG}-iphonesimulator\n    UNIVERSAL_DIR=${SYMROOT}/${CONFIG}-universal\n\n    cd ${PROJECT_DIR}\n    xcodebuild -configuration ${CONFIG} -target ${TARGET} -sdk iphoneos ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO CONFIGURATION_BUILD_DIR=${DEVICE_DIR} >/dev/null\n    xcodebuild -configuration ${CONFIG} -target ${TARGET} -sdk iphonesimulator ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO CONFIGURATION_BUILD_DIR=${SIMULATOR_DIR} >/dev/null\n\n    rm -rf \"${UNIVERSAL_DIR}\"\n    mkdir \"${UNIVERSAL_DIR}\"\n\n    lipo -create -output \"${UNIVERSAL_DIR}/${PRODUCT}\" \"${DEVICE_DIR}/${LIB}\" \"${SIMULATOR_DIR}/${LIB}\"\n\n    mkdir -p \"${FRAMEWORK_DIR}/Versions/A\"\n\n    cd \"${FRAMEWORK_DIR}/Versions\"\n    ln -sf A Current\n\n    cp -r \"${HEADERS_DIR}\" \"${FRAMEWORK_DIR}/Versions/Current/\"\n  cp -r \"${RESOURCE_DIR}\" \"${FRAMEWORK_DIR}/Versions/Current/\"\n    cp \"${UNIVERSAL_DIR}/${PRODUCT}\" \"${FRAMEWORK_DIR}/Versions/Current\"\n\n    cd \"${FRAMEWORK_DIR}\"\n    ln -sf \"Versions/Current/${PRODUCT}\" \"${PRODUCT}\"\n    ln -sf Versions/Current/Headers Headers\n  ln -sf Versions/Current/Resources Resources\ndone\n";
 		};
-		E38E8DD21C6A596A000EB763 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "PRODUCT=BRFullTextSearch\n\nOUTPUT_DIR=\"${PROJECT_DIR}/Framework-MacOS\"\nHEADERS_DIR=\"${OUTPUT_DIR}/Headers\"\nRESOURCE_DIR=\"${OUTPUT_DIR}/Resources\"\n\n# Start clean by removing output dir\nrm -rf ${HEADERS_DIR}\nmkdir -p \"${HEADERS_DIR}\"\n\n# Copy source headers into flat Headers directory\nrsync -a --include '*/' --include '**/*.h' --exclude '*' ${PROJECT_DIR}/clucene/src/shared/CLucene \"${HEADERS_DIR}/\"\nrsync -a --include '*/' --include '**/*.h' --exclude '*' ${PROJECT_DIR}/clucene/src/core/CLucene \"${HEADERS_DIR}/\"\nrsync -a --include '*/' --include '**/Snowball*.h' --exclude '*' --prune-empty-dirs ${PROJECT_DIR}/clucene/src/contribs-lib/CLucene \"${HEADERS_DIR}/\"\nrsync -a ${PROJECT_DIR}/clucene/src/contribs-lib/CLucene/snowball/libstemmer.h \"${HEADERS_DIR}/\"\nrsync -a --include 'CLucene' --include '**/*.h' --exclude '*' ${PROJECT_DIR}/${PRODUCT}/ \"${HEADERS_DIR}/\"\nrsync -a --include '*.lproj/' --include '*.lproj/*' --exclude '*' ${PROJECT_DIR}/${PRODUCT}/ \"${RESOURCE_DIR}/\"\n\necho \"Output to: ${OUTPUT_DIR}\"\n\n# change to \"Release Debug\" to build both\nCONFIGURATIONS=\"Debug\"\nfor CONFIG in ${CONFIGURATIONS}; do\n    FRAMEWORK_DIR=\"${OUTPUT_DIR}/${CONFIG}/${PRODUCT}.framework\"\n\n    cd ${PROJECT_DIR}\n    \n    cp -r \"${HEADERS_DIR}\" \"${FRAMEWORK_DIR}/Versions/Current/\"\n    cp -r \"${RESOURCE_DIR}\" \"${FRAMEWORK_DIR}/Versions/Current/\"\n\ndone\n";
-		};
 		EB68ED7E5609A553FDEAF143 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasePods-BRFullTextSearchTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FC367F5EDEBE8EC8EAB3FCD4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-BRFullTextSearchMacOS/Pods-BasePods-BRFullTextSearchMacOS-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
